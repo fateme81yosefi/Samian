@@ -1,0 +1,54 @@
+.Message{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.repAndDetail{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(145, 20, 97);
+    margin-left: 10px;
+}
+.avatarAndTitle{
+    display: flex;
+    flex-direction: row;
+}
+.green , .red , .blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.green{
+    background-color: rgb(39, 214, 59);
+
+}
+.red{
+    background-color: rgb(220, 7, 7);
+
+}
+.blue{
+    background-color: blue;
+
+}
+.status{
+    display: flex;
+    flex-direction: row;
+}
+.senderAndStatus{
+    display: flex;
+    flex-direction: row;
+}

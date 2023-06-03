@@ -1,0 +1,8 @@
+.Home{
+    background-color: rgb(202, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mi: 100vh;
+    flex-direction: column;
+}
