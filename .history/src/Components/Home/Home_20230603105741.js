@@ -2,7 +2,7 @@ import Message from '../Message/Message';
 import './Home.css';
 
 import { useDispatch } from 'react-redux'
-import { setText } from '../../Redux/Action'
+import { setText } from '../../Redux/'
 
 
 

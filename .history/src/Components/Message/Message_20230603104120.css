@@ -1,0 +1,12 @@
+.Message{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+    width: 8-%;
+}
+.repAndDetail{
+    display: flex;
+    flex-direction: row;
+}

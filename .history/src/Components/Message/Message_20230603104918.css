@@ -1,0 +1,36 @@
+.Message{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid black;
+
+}
+.repAndDetail{
+    display: flex;
+    flex-direction: row;
+}
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.avatarAndTitle{
+    display: flex;
+    flex-direction: row;
+}
+.ffff{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+}
+.senderAndStatus{
+    display: flex;
+    flex-direction: row;
+}

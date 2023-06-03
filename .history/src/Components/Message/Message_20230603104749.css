@@ -1,0 +1,28 @@
+.Message{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid black;
+
+}
+.repAndDetail{
+    display: flex;
+    flex-direction: row;
+}
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.avatarAndTitle{
+    display: flex;
+    flex-direction: row;
+}
+.333{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

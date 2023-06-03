@@ -2,20 +2,21 @@ import Message from '../Message/Message';
 import './Home.css';
 
 import { useDispatch } from 'react-redux'
-import { setText } from '../../Redux/Action'
+import { setText } from './actions'
 
+const MyComponent = () => {
+ 
 
+  return (
+    <input type="text" onChange={handleInputChange} />
+  )
+}
 
 function Home() {
-
-
   let data = require('../../Data/data.json');
 
-  console.log(data.data);
-  
-  const dispatch = useDispatch()
-
-  dispatch(setText(data.data))
+    console.log(data.data);
+  ;
 
   return (
     <div className="Home">
