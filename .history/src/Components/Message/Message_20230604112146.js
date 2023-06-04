@@ -73,6 +73,7 @@ function Message(props) {
                         <div className='time' style={{ color: "blue", paddingRight: "20px", paddingLeft: "20px" }}>{hours + ":" + minunts + ":" + seconds}</div>
                         <div className='datee'>{dateeee3 + "/" + dateeee1 + "/" + dateeee2}</div>
                         <div className='ago' style={{ color: "red", paddingRight: "20px", paddingLeft: "20px" }}>    ({diffSeconds}روز پیش)</div>
+
                     </div>
                 </div>
             </div>

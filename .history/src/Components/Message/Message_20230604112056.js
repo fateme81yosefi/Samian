@@ -4,7 +4,10 @@ import { updateImportant, addToData } from '../../Redux/Action'
 
 function Message(props) {
 
+
     const data = useSelector(state => state.data);
+
+
 
     let dataInfo = data[props.index]
 
@@ -40,6 +43,7 @@ function Message(props) {
                             </div>
                         </div>
                         <div className='title'>{dataInfo.subject}</div>
+                        <div className='reciver'>{ }</div>
                     </div>
                 </div>
                 <div className='repAndDetail'>
@@ -73,6 +77,7 @@ function Message(props) {
                         <div className='time' style={{ color: "blue", paddingRight: "20px", paddingLeft: "20px" }}>{hours + ":" + minunts + ":" + seconds}</div>
                         <div className='datee'>{dateeee3 + "/" + dateeee1 + "/" + dateeee2}</div>
                         <div className='ago' style={{ color: "red", paddingRight: "20px", paddingLeft: "20px" }}>    ({diffSeconds}روز پیش)</div>
+
                     </div>
                 </div>
             </div>
