@@ -1,0 +1,109 @@
+.Message {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.containInfoo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.containRep {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.repAndDetail {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(145, 20, 97);
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.avatarAndTitle {
+  display: flex;
+  flex-direction: row;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+}
+.senderAndStatus {
+  display: flex;
+  flex-direction: row;
+}
+.sender {
+  font-weight: 800;
+}
+.status {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.status div {
+  margin-left: 10px;
+}
+svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.date {
+  color: gray;
+  font-weight: 200;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: medium;
+}
+.textArea {
+  display: none;
+  width: 70%;
+  height: 100px;
+  margin: 4% 0;
+}
+.send {
+  display: none;
+}
+.text {
+  background-color: aqua;
+  padding: 20px;
+  font-size: medium;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+.reciiver {
+  background-color: #2a9d8f;
+  padding: 20px;
+  font-size: medium;
+  margin: 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 900px) {
+  .containInfoo {
+    flex-direction: column;
+  }
+}

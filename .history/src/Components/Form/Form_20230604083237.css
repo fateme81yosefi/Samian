@@ -1,0 +1,49 @@
+.textArea {
+  width: 70%;
+  height: 50vh;
+  text-align: right;
+  font-size: larger;
+}
+.containTextArea {
+  width: 100%;
+  background-color: #e8eaf6;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10% 0;
+  flex-direction: column;
+}
+.send {
+  background-color: #f4511e;
+  padding: 10px 50px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: x-large;
+}
+.reciver{
+    margin-bottom: 20px;
+    /* right: 0 !important; */
+    text-align: right;
+    color: gray;
+    font-size: small;
+}
+.containDetails{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    width: ;
+}
+.textDet{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.containTitle{
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    width: 70%;
+}

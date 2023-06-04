@@ -1,0 +1,13 @@
+.textArea{
+    width: 70%;
+    height: 50vh;
+    text-align: ;
+}
+.containTextArea{
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+}
